@@ -1,2 +1,23 @@
-# react-assessment
-This assessment serves as the capstone of the interpersonal and technical lecture modules by combining a presentation combining the "Tell Your Story" module and the React/Redux, front-end development, module. Students will be given both weeks of the React module to design and develop a personal portfolio page. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. On assessment day, students will take a short Anki assessment over terms from the React module and then each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class and any internal Cook employees that wish to come and watch.
+# React Assessment
+
+---
+
+This assessment serves as the capstone of the interpersonal and technical lecture modules by combining the "Tell Your Story" module and the React/Redux, front-end development, module. Students will be given both weeks of the React module to design and develop a personal portfolio page. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. On assessment day, students will take a short Anki assessment over terms from the React module and then each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class and any internal Cook employees that wish to come and watch.
+
+## Goal
+
+---
+
+Students will create their own portfolio page/site and prepare a presentation in which they will cover their experiences at FastTrack'D, their story which they have developed throughout the course, and their technical abilities by using their portfolio sites to effectively guide and support their presentation.
+
+## Tasks
+
+---
+
+- [ ] Create user stories for your personal portfolio site
+- [ ] Create a style guide and use it to make a design template
+- [ ] Include your Story, Biography, Resume, and past coding projects (including assignments and assessment descriptions) in your design.
+- [ ] Take your design and break it into React Components.
+- [ ] Write your components using BDD to improve code quality and make refactoring easier in the future.
+
+
