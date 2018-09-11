@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import './Background.css'
-import NavBar from '../NavBar'
 
 const Background = props => (
   <div>
@@ -10,6 +9,6 @@ const Background = props => (
   </div>
 )
 
-NavBar.propTypes = {}
+Background.propTypes = {}
 
 export default Background

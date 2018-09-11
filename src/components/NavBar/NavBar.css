@@ -6,6 +6,7 @@ ul {
     overflow: hidden;
     background-color: darkslategrey;
     position: fixed;
+    z-index: 2;
 }
 
 li a {
