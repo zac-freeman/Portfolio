@@ -5,6 +5,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: darkslategrey;
+    position: fixed;
 }
 
 li a {
