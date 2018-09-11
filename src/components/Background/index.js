@@ -5,7 +5,7 @@ import './Background.css'
 
 const Background = props => (
   <div>
-    <img className='bg' src={'https://placekitten.com/g/1920/1080'} />
+    <img className='bg' src={props.children} />
   </div>
 )
 
