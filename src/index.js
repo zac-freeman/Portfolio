@@ -1,6 +1,24 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import * as ReactDOM from 'react-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
-import App from './App'
+import Header from './components/Header'
+import Landing from './containers/Landing'
+import About from './containers/About'
+import Portfolio from './containers/Portfolio'
+import Contact from './containers/Contact'
 
-ReactDOM.render(<App />, document.getElementById('app'))
+import './index.css'
+
+ReactDOM.render(
+  <BrowserRouter>
+    <div>
+      <Route path='/' component={Header} />
+      <Route exact path='/' component={Landing} />
+      <Route exact path='/about' component={About} />
+      <Route exact path='/portfolio' component={Portfolio} />
+      <Route exact path='/contact' component={Contact} />
+    </div>
+  </BrowserRouter>,
+  document.getElementById('app')
+)
