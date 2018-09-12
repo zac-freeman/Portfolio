@@ -20,7 +20,7 @@ const StyledLink = styled(Link)`
   margin-right: 2%;
 
   &:hover {
-      color: blue;
+      color: grey;
   }
 `
 
@@ -34,7 +34,7 @@ const HomeLink = styled(Link)`
   margin-right: auto;
 
   &:hover {
-      color: blue;
+      color: grey;
   }
 `
 

@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Contact = props => <div>Contact</div>
+import Title from '../../components/Title'
+
+const Contact = props => <Title>Contact Me</Title>
 
 export default Contact

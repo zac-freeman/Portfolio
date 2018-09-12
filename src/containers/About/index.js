@@ -1,5 +1,7 @@
 import React from 'react'
 
-const About = props => <div>About</div>
+import Title from '../../components/Title'
+
+const About = props => <Title>About Me</Title>
 
 export default About
