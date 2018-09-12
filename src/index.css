@@ -2,6 +2,8 @@ body {
     padding: 0;
     border: 0;
     margin: 0;
-    background-image: url('https://placekitten.com/g/1920/1080');
+    /* background-image: url('https://placekitten.com/g/1920/1080'); */
+    background-color: peru;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
