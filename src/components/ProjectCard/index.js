@@ -23,10 +23,9 @@ const Card = styled.div`
     width: 250px;
     height: 400px;
     padding: 4px 4px;
-    border: 2px solid #333;
+    border: 2px solid white;
     border-radius: 10px;
     margin: auto auto;
-    background-color: #333;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 
