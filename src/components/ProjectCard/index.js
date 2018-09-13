@@ -8,7 +8,7 @@ import GitHubLink from './GitHubLink'
 const ProjectTitle = styled.p`
     color: white;
     font-weight: bold;
-    margin: 4px auto;
+    margin: auto auto;
 `
 
 const ProjectText = styled.p`
@@ -24,7 +24,7 @@ const Card = styled.div`
     height: 400px;
     padding: 4px 4px;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: auto auto;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;

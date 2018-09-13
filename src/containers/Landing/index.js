@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import Typing from 'react-typing-animation'
 
 import Image from '../../components/Image'
-import Title from '../../components/Title'
 
-const Subtitle = styled.p`
+const Subtitle = styled.div`
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -41,7 +41,18 @@ const Landing = props => (
     <Image src={'./src/assets/me.jpeg'} alt={'An image of Zac Freeman'} />
     <LandingTitle>Zac Freeman</LandingTitle>
     <Divider className={'fas fa-minus'} />
-    <Subtitle>Full Stack Developer</Subtitle>
+    <Subtitle>
+      &nbsp;
+      <Typing speed={75} loop>
+        Full Stack Developer
+        <Typing.Backspace count={20} delay={1750} />
+        Physicist
+        <Typing.Backspace count={9} delay={1750} />
+        Problem Solver
+        <Typing.Backspace count={14} delay={1750} />
+      </Typing>
+      &nbsp;
+    </Subtitle>
   </Content>
 )
 

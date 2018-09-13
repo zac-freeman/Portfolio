@@ -6,8 +6,11 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
   margin: 8px auto;
-  width: 200px;
-  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+
 `
 
 const StyledImg = styled.img`
