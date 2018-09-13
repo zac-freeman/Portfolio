@@ -17,18 +17,19 @@ const Links = styled.div`
 `
 
 const StyledLink = styled.div`
-    display: flex;
-    justify-content: center;
-    font-size: 100pt;
-    margin: 16px 16px;
+  display: flex;
+  justify-content: center;
+  font-size: 100pt;
+  margin: 16px 16px;
 `
 
 const StyledAnchor = styled.a`
-    color: white;
+  color: white;
+  transition: 0.3s;
 
-    &:hover {
-        color: grey;
-    }
+  &:hover {
+    color: grey;
+  }
 `
 
 const Contact = props => (

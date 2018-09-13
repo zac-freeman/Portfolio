@@ -13,6 +13,37 @@ const Text = styled.p`
   font-size: 16pt;
 `
 
+const AnchorText = styled.p`
+  font-size: 16;
+  font-weight: bold;
+  margin: auto 4px;
+`
+
+const AnchorImage = styled.i`
+    font-size: 24pt;
+    margin: auto 4px;
+`
+
+const StyledAnchor = styled.a`
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  color: white;
+  text-decoration-line: none;
+  margin: auto auto;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+
+&:hover {
+    color: grey;
+    border-color: grey;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+`
+
 const Content = styled.div`
     width: 50%;
     margin: auto auto;
@@ -68,10 +99,22 @@ const About = props => (
     <Text>
       As a Full Stack Developer, I use
       {' '}
-      <Highlight>Java, JavaScript, and React</Highlight>
+      <Highlight>Java, JavaScript, PostgreSQL, and React</Highlight>
       {' '}
       to build applications that build repositories and deliver content to the end user.
     </Text>
+
+    <StyledAnchor
+      href={
+        'https://docs.google.com/document/d/1KzVq-698WoVYoYsXYXDbq9wMLryn6DTc9G-5Y8mAsiw/edit?usp=sharing'
+      }
+      target={'_blank'}
+    >
+      <AnchorText>My Resume</AnchorText>
+      {' '}
+      <AnchorImage className={'far fa-file-pdf'} />
+    </StyledAnchor>
+
   </Content>
 )
 

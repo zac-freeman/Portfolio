@@ -15,6 +15,7 @@ const StyledNav = styled.nav`
 const StyledLink = styled(Link)`
   display: block;
   color: white;
+  transition: 0.3s;
   text-align: center;
   text-decoration: none;
   margin-right: 2%;
@@ -28,6 +29,7 @@ const HomeLink = styled(Link)`
   float: left;
   display: block;
   color: white;
+  transition: 0.3s;
   text-align: center;
   text-decoration: none;
   margin-left: 2%;

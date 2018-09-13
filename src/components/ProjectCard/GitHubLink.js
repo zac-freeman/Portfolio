@@ -10,6 +10,7 @@ const StyledLink = styled.div`
 
 const StyledAnchor = styled.a`
     color: white;
+    transition: 0.3s;
 
     &:hover {
         color: grey;
