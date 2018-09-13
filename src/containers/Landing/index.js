@@ -7,10 +7,26 @@ import Title from '../../components/Title'
 const Subtitle = styled.p`
   display: flex;
   justify-content: center;
-  margin: 0 0;
+  margin: 20px 0;
   padding: 0 0;
   color: white;
   font-size: 22pt;
+`
+
+const Divider = styled.i`
+  font-size: 22pt;
+  color: white;
+  transform: scale(8,1);
+  margin: 0 auto;
+`
+
+const LandingTitle = styled.p`
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0 0;
+  color: white;
+  font-size: 44pt;
 `
 
 const Content = styled.div`
@@ -22,13 +38,9 @@ const Content = styled.div`
 
 const Landing = props => (
   <Content>
-    <Image
-      src={
-        'https://media.licdn.com/dms/image/C4E03AQHaEBEvwCUl5w/profile-displayphoto-shrink_200_200/0?e=1541635200&v=beta&t=zSonBGppz1xxVv49GYjbuc2WvxGzQsHlGDKp6FfRnPQ'
-      }
-      alt={'An image of Zac Freeman'}
-    />
-    <Title>Zac Freeman</Title>
+    <Image src={'./src/assets/me.jpeg'} alt={'An image of Zac Freeman'} />
+    <LandingTitle>Zac Freeman</LandingTitle>
+    <Divider className={'fas fa-minus'} />
     <Subtitle>Full Stack Developer</Subtitle>
   </Content>
 )
