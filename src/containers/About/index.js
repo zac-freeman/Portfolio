@@ -3,23 +3,75 @@ import styled from 'styled-components'
 
 import Title from '../../components/Title'
 
+const Highlight = styled.span`
+  color: rgb(59,59,59);
+  font-size: 16.5pt;
+  font-weight: bolder;
+`
+
+const Text = styled.p`
+  font-size: 16pt;
+`
+
 const Content = styled.div`
-    width: 75%;
+    width: 50%;
     margin: auto auto;
 `
 
 const About = props => (
   <Content>
     <Title>About Me</Title>
-    <p>
-      Although the phrase is nonsense, it does have a long history. The phrase has been used for several centuries by typographers to show the most distinctive features of their fonts. It is used because the letters involved and the letter spacing in those combinations reveal, at their best, the weight, design, and other important features of the typeface.
-    </p>
-    <p>
-      A 1994 issue of "Before & After" magazine traces "Lorem ipsum ..." to a jumbled Latin version of a passage from de Finibus Bonorum et Malorum, a treatise on the theory of ethics written by Cicero in 45 B.C. The passage "Lorem ipsum ..." is taken from text that reads, "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ...," which translates as, "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-    </p>
-    <p>
-      During the 1500s, a printer adapted Cicero's text to develop a page of type samples. Since then, the Latin-like text has been the printing industry's standard for fake, or dummy, text. Before electronic publishing, graphic designers had to mock up layouts by drawing in squiggled lines to indicate text. The advent of self-adhesive sheets preprinted with "Lorem ipsum" gave a more realistic way to indicate where text would go on a page.
-    </p>
+    <Text>
+      I am a
+      {' '}
+      <Highlight>Full Stack Developer</Highlight>
+      {' '}
+      with a passion for all things numbers.
+    </Text>
+    <Text>
+      In my own time, I've developed neural networks that teach a cart how to balance a pole and
+      {' '}
+      <Highlight>show Blanka how to beat bots</Highlight>
+      {' '}
+      in Street Fighter II: Hyper Fighting. I've wondered about the similarties between a ball rolling down a hill and a learning algorithm moving to the lowest error.
+    </Text>
+    <Text>
+      As a student, I discovered my interest in algorithms, data structures, math, and the relationships between them. I used
+      {' '}
+      <Highlight>C++</Highlight>
+      {' '}
+      to construct my first tree and destroy it.
+    </Text>
+    <Text>
+      During the summer breaks, I participated in two internships. At FSU, I used
+      {' '}
+      <Highlight>Python</Highlight>
+      {' '}
+      and
+      {' '}
+      <Highlight>MATLAB</Highlight>
+      {' '}
+      to model the flow of liquids in a novel way. At UAH, I used
+      {' '}
+      <Highlight>C++</Highlight>
+      {' '}
+      and
+      {' '}
+      <Highlight>CUDA</Highlight>
+      {' '}
+      to discover new behaviors of cosmic rays outside our galaxy. I dedicated one Summer to
+      {' '}
+      <Highlight>fostering a litter of kittens</Highlight>
+      {' '}
+      and finding them suitable families.
+    </Text>
+    <Text>
+      As a Full Stack Developer, I use
+      {' '}
+      <Highlight>Java, JavaScript, and React</Highlight>
+      {' '}
+      to build applications that build repositories and deliver content to the end user.
+    </Text>
   </Content>
 )
 

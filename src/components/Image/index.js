@@ -5,11 +5,14 @@ import styled from 'styled-components'
 const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
+  height: 200px;
 `
 
 const StyledImg = styled.img`
   box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  transition: 0.3s;
+  max-width: 100%;
+  max-height: 100%;
 
   &:hover {
     box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
