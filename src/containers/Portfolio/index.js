@@ -43,6 +43,16 @@ const Portfolio = props => (
           'https://github.com/zac-freeman/js-assessment-dev-duel-zac-freeman'
         }
       />
+      <ProjectCard
+        imageSrc={'https://placekitten.com/g/200/200'}
+        title={'Test Project'}
+        desc={
+          'This is a sample project description. Ideally, it fills up enough space to wrap over more than one line.'
+        }
+        link={
+          'https://github.com/zac-freeman/js-assessment-dev-duel-zac-freeman'
+        }
+      />
     </ProjectList>
   </div>
 )

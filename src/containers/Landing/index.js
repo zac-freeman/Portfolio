@@ -4,11 +4,20 @@ import styled from 'styled-components'
 import Image from '../../components/Image'
 import Title from '../../components/Title'
 
+const Subtitle = styled.p`
+  display: flex;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0 0;
+  color: white;
+  font-size: 22pt;
+`
+
 const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
 `
 
 const Landing = props => (
@@ -20,6 +29,7 @@ const Landing = props => (
       alt={'An image of Zac Freeman'}
     />
     <Title>Zac Freeman</Title>
+    <Subtitle>Full Stack Developer</Subtitle>
   </Content>
 )
 

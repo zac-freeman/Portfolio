@@ -27,6 +27,12 @@ const Card = styled.div`
     border-radius: 10px;
     margin: auto auto;
     background-color: #333;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
 `
 
 const ProjectCard = props => (

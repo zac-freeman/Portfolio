@@ -2,15 +2,23 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledImg = styled.div`
+const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
 `
 
+const StyledImg = styled.img`
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+`
+
 const Image = props => (
-  <StyledImg>
-    <img src={props.src} alt={props.alt} />
-  </StyledImg>
+  <StyledDiv>
+    <StyledImg src={props.src} alt={props.alt} />
+  </StyledDiv>
 )
 
 Image.propTypes = {
