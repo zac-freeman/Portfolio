@@ -60,18 +60,25 @@ const About = props => (
       with a passion for all things numbers.
     </Text>
     <Text>
-      In my own time, I've developed neural networks that teach a cart how to balance a pole and
+      In my own time, I developed neural networks that taught a cart how to balance a pole and
       {' '}
-      <Highlight>show Blanka how to beat bots</Highlight>
+      <Highlight>trained a fighter to beat bots</Highlight>
       {' '}
-      in Street Fighter II: Hyper Fighting. I've wondered about the similarties between a ball rolling down a hill and a learning algorithm moving to the lowest error.
+      in Street Fighter II: Hyper Fighting. I explored the similarties between a ball rolling down a hill and a learning algorithm moving to the lowest error.
     </Text>
     <Text>
       As a student, I discovered my interest in algorithms, data structures, math, and the relationships between them. I used
       {' '}
       <Highlight>C++</Highlight>
       {' '}
-      to construct my first tree and destroy it.
+      to construct my first tree and destroy it. I lead and developed a group project to
+      {' '}
+      <Highlight>simulate the orbits of photons</Highlight>
+      {' '}
+      around a black hole in
+      {' '}
+      <Highlight>Python</Highlight>
+      .
     </Text>
     <Text>
       During the summer breaks, I participated in two internships. At FSU, I used
@@ -101,7 +108,7 @@ const About = props => (
       {' '}
       <Highlight>Java, JavaScript, PostgreSQL, and React</Highlight>
       {' '}
-      to build applications that build repositories and deliver content to the end user.
+      to design applications that build repositories and deliver content to the end user.
     </Text>
 
     <StyledAnchor

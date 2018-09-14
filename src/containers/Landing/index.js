@@ -49,7 +49,7 @@ const Landing = props => (
         Physicist
         <Typing.Backspace count={9} delay={1750} />
         Problem Solver
-        <Typing.Backspace count={14} delay={1750} />
+        <Typing.Backspace count={14} delay={7000} />
       </Typing>
       &nbsp;
     </Subtitle>
