@@ -117,7 +117,7 @@ const About = props => (
     <Fade clear delay={400}>
       <StyledAnchor
         href={
-          'https://docs.google.com/document/d/1KzVq-698WoVYoYsXYXDbq9wMLryn6DTc9G-5Y8mAsiw/edit?usp=sharing'
+          'https://drive.google.com/file/d/1sPI0ePuBsh1qyJBxNYts9B4AHpKt7l6B/view'
         }
         target={'_blank'}
       >
