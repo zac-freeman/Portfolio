@@ -43,7 +43,7 @@ const Landing = props => (
     <Divider className={'fas fa-minus'} />
     <Subtitle>
       &nbsp;
-      <Typing speed={75} loop>
+      <Typing speed={75} hideCursor={-1} loop>
         Full Stack Developer
         <Typing.Backspace count={20} delay={1750} />
         Physicist

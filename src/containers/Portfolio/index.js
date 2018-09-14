@@ -8,6 +8,7 @@ const ProjectList = styled.ul`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 0;
 `
 
 const Portfolio = props => (
@@ -23,6 +24,7 @@ const Portfolio = props => (
         link={
           'https://github.com/zac-freeman/js-assessment-dev-duel-zac-freeman'
         }
+        delay={0}
       />
       <ProjectCard
         imageSrc={'./src/assets/socialmedia.png'}
@@ -33,6 +35,7 @@ const Portfolio = props => (
         link={
           'https://github.com/zac-freeman/social-media-assessment-zac-freeman'
         }
+        delay={300}
       />
       <ProjectCard
         imageSrc={'./src/assets/crown.png'}
@@ -41,6 +44,7 @@ const Portfolio = props => (
           'An practice exercise with Java Collections. Focused on creating a HashMap themed as a Hierarchy (or tree) of FatCats and WageSlaves (parent and child nodes)'
         }
         link={'https://github.com/zac-freeman/java-collections-zac-freeman'}
+        delay={600}
       />
       <ProjectCard
         imageSrc={'./src/assets/polecart.png'}
@@ -49,6 +53,7 @@ const Portfolio = props => (
           'A neural network with one hidden layer and two potential outputs: move left and move right. Uses supervised learning implemented through linear regression to teach a cart to balance a pole.'
         }
         link={'https://github.com/zac-freeman/polecart'}
+        delay={900}
       />
     </ProjectList>
   </div>

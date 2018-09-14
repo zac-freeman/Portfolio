@@ -38,8 +38,9 @@ const StyledAnchor = styled.a`
   height: 40px;
 
 &:hover {
-    color: grey;
-    border-color: grey;
+    color: rgb(59,59,59);
+    border-color: white;
+    background-color: white;
     box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
 }
 `
