@@ -4,6 +4,7 @@ body {
     margin: 0;
     /* background-image: url('https://placekitten.com/g/1920/1080'); */
     background-color: cornflowerblue;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
     color: white;
 }

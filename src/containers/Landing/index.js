@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Typing from 'react-typing-animation'
+import Fade from 'react-reveal/Fade'
 
 import Image from '../../components/Image'
 
@@ -37,23 +38,25 @@ const Content = styled.div`
 `
 
 const Landing = props => (
-  <Content>
-    <Image src={'./src/assets/me.jpeg'} alt={'An image of Zac Freeman'} />
-    <LandingTitle>Zac Freeman</LandingTitle>
-    <Divider className={'fas fa-minus'} />
-    <Subtitle>
-      &nbsp;
-      <Typing speed={75} hideCursor={-1} loop>
-        Full Stack Developer
-        <Typing.Backspace count={20} delay={1750} />
-        Physicist
-        <Typing.Backspace count={9} delay={1750} />
-        Problem Solver
-        <Typing.Backspace count={14} delay={7000} />
-      </Typing>
-      &nbsp;
-    </Subtitle>
-  </Content>
+  <Fade clear>
+    <Content>
+      <Image src={'./src/assets/me.jpeg'} alt={'An image of Zac Freeman'} />
+      <LandingTitle>Zac Freeman</LandingTitle>
+      <Divider className={'fas fa-minus'} />
+      <Subtitle>
+        &nbsp;
+        <Typing speed={75} hideCursor={-1} loop>
+          Full Stack Developer
+          <Typing.Backspace count={20} delay={1750} />
+          Physicist
+          <Typing.Backspace count={9} delay={1750} />
+          Problem Solver
+          <Typing.Backspace count={14} delay={7000} />
+        </Typing>
+        &nbsp;
+      </Subtitle>
+    </Content>
+  </Fade>
 )
 
 export default Landing

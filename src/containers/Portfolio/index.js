@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
 
 import Title from '../../components/Title'
 import ProjectCard from '../../components/ProjectCard'
@@ -13,7 +14,9 @@ const ProjectList = styled.ul`
 
 const Portfolio = props => (
   <div>
-    <Title>Projects</Title>
+    <Fade clear delay={0}>
+      <Title>Projects</Title>
+    </Fade>
     <ProjectList>
       <ProjectCard
         imageSrc={'./src/assets/devduel.png'}

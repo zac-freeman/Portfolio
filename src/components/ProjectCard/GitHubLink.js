@@ -13,7 +13,7 @@ const StyledAnchor = styled.a`
     transition: 0.3s;
 
     &:hover {
-        color: grey;
+      color: rgb(59,59,59);
     }
 `
 

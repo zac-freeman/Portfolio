@@ -9,7 +9,7 @@ const StyledNav = styled.nav`
   margin: 0;
   padding: 12px 2px;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(59,59,59);
 `
 
 const StyledLink = styled(Link)`
