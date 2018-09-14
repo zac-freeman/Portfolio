@@ -32,7 +32,7 @@ const StyledAnchor = styled.a`
   transition: 0.3s;
   color: white;
   text-decoration-line: none;
-  margin: auto auto;
+  margin: 16px auto;
   border: 1px solid white;
   border-radius: 5px;
   width: 160px;
