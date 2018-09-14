@@ -9,11 +9,11 @@ const StyledLink = styled.div`
 `
 
 const StyledAnchor = styled.a`
-    color: white;
+    color: rgb(59,59,59);
     transition: 0.3s;
 
     &:hover {
-      color: rgb(59,59,59);
+      color: cornflowerblue;
     }
 `
 

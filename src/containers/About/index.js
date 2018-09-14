@@ -70,7 +70,7 @@ const About = props => (
         in Street Fighter II: Hyper Fighting. I explored the similarties between a ball rolling down a hill and a learning algorithm moving to the lowest error.
       </Text>
       <Text>
-        As a physics student at FSU, I discovered my interest in algorithms, data structures, math, and the relationships between them. I used
+        As a physics student at FSU, I discovered my interest for algorithms, data structures, math, and the relationships between them. I used
         {' '}
         <Highlight>C++</Highlight>
         {' '}
@@ -100,7 +100,7 @@ const About = props => (
         {' '}
         <Highlight>CUDA</Highlight>
         {' '}
-        to discover new behaviors of cosmic rays outside our galaxy. I dedicated one Summer to
+        to discover new behaviors of cosmic rays outside our galaxy. I dedicated one summer to
         {' '}
         <Highlight>fostering a litter of kittens</Highlight>
         {' '}
@@ -111,7 +111,7 @@ const About = props => (
         {' '}
         <Highlight>Java, JavaScript, PostgreSQL, and React</Highlight>
         {' '}
-        to design applications that build repositories and deliver content to the end user.
+        to design applications that manage everything from the database to the end user experience.
       </Text>
     </Fade>
     <Fade clear delay={400}>
